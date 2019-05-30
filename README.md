@@ -2,6 +2,19 @@
 
 Setup a regional kubernetes cluster on Google Kubernetes Engine.
 
+## Requirements
+
+- This module uses Terraform 0.11.X
+- To enable `istio` you must install:
+  - [gcloud](https://cloud.google.com/sdk/install)
+- To enable `ambassador` you must install:
+  - [gcloud](https://cloud.google.com/sdk/install)
+  - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+- To enable `helm` you must install:
+  - [gcloud](https://cloud.google.com/sdk/install)
+  - [kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/)
+  - [helm](https://helm.sh/docs/using_helm/)
+
 ## Inputs
 
 | Name | Description | Type | Default | Required |
